@@ -3,7 +3,7 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "dyatel"
+name = "dyatel-wrapper"
 dynamic = ["version"]
 description = "Wrapper of Selenium, Appium and Playwright with single API"
 readme = "README.md"
@@ -81,3 +81,4 @@ version = { attr = "mops.__version__" }
 # Temporary workaround for https://github.com/astral-sh/uv/issues/9513, https://github.com/pypa/setuptools/issues/4759
 [tool.setuptools]
 license-files = []
+packages = ["dyatel"]
