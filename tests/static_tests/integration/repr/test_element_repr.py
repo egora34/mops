@@ -1,8 +1,8 @@
 import re
 
-from mops.base.element import Element
-from mops.base.group import Group
-from mops.mixins.objects.locator import Locator
+from dyatel.base.element import Element
+from dyatel.base.group import Group
+from dyatel.mixins.objects.locator import Locator
 
 
 class SomeGroup(Group):

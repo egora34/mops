@@ -1,4 +1,4 @@
-from mops.exceptions import DriverWrapperException
+from dyatel.exceptions import DriverWrapperException
 
 
 def test_exception():

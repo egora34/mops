@@ -1,7 +1,7 @@
-from mops.base.element import Element
-from mops.base.group import Group
-from mops.base.page import Page
-from mops.mixins.objects.locator import Locator
+from dyatel.base.element import Element
+from dyatel.base.group import Group
+from dyatel.base.page import Page
+from dyatel.mixins.objects.locator import Locator
 from tests.settings import domain_name, automation_playground_repo_name
 
 

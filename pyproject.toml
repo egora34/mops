@@ -72,15 +72,12 @@ Tracker = "https://github.com/CustomEnv/mops/issues"
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["mops**"]
+include = ["dyatel**"]
 exclude = ["tests", "docs", "artifacts", ".github", ".venv"]
 
 [tool.setuptools.dynamic]
-version = { attr = "mops.__version__" }
+version = { attr = "dyatel.__version__" }
 
 # Temporary workaround for https://github.com/astral-sh/uv/issues/9513, https://github.com/pypa/setuptools/issues/4759
 [tool.setuptools]
 license-files = []
-
-[tool.setuptools.package-dir]
-mops = "dyatel"

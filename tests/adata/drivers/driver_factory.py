@@ -1,4 +1,4 @@
-from mops.mixins.objects.driver import Driver
+from dyatel.mixins.objects.driver import Driver
 from tests.adata.drivers.playwright_driver import PlaywrightDriver
 from tests.adata.drivers.appium_driver import AppiumDriver
 from tests.adata.drivers.driver_entities import DriverEntities

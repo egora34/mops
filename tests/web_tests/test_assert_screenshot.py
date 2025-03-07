@@ -2,10 +2,10 @@ import os
 
 import pytest
 import pytest_rerunfailures
-from mops.exceptions import UnexpectedElementsCountException
+from dyatel.exceptions import UnexpectedElementsCountException
 
-from mops.mixins.objects.box import Box
-from mops.visual_comparison import VisualComparison
+from dyatel.mixins.objects.box import Box
+from dyatel.visual_comparison import VisualComparison
 from tests.adata.pages.playground_main_page import Card
 
 

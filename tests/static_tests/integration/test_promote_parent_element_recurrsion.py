@@ -1,4 +1,4 @@
-from mops.base.element import Element
+from dyatel.base.element import Element
 
 
 class Section(Element):

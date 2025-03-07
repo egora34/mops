@@ -14,8 +14,8 @@ This allows you to organize and manage multiple UI elements within a container o
 ### Code example
 
 ```python
-from mops.base.page import Page
-from mops.base.element import Element
+from dyatel.base.page import Page
+from dyatel.base.element import Element
 
 
 class IndexPage(Page):
@@ -39,8 +39,8 @@ This is particularly useful when you need to add specific behaviors or propertie
 ### Code example
 
 ```python
-from mops.base.page import Page
-from mops.base.element import Element
+from dyatel.base.page import Page
+from dyatel.base.element import Element
 
 
 class IndexButton(Element):

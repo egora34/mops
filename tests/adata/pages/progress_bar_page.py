@@ -1,5 +1,5 @@
-from mops.base.element import Element
-from mops.base.page import Page
+from dyatel.base.element import Element
+from dyatel.base.page import Page
 
 
 class ProgressBarPage(Page):

@@ -1,7 +1,7 @@
 import pytest
 from playwright.sync_api import TimeoutError as PlaywrightTimeoutException
 
-from mops.exceptions import TimeoutException
+from dyatel.exceptions import TimeoutException
 from tests.adata.pages.mouse_event_page import MouseEventPageWithUnexpectedWait
 
 

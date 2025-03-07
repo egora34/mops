@@ -1,9 +1,9 @@
 import pytest
 from selenium.webdriver.common.by import By
 
-from mops.base.element import Element
-from mops.mixins.objects.locator import Locator
-from mops.utils.internal_utils import all_tags
+from dyatel.base.element import Element
+from dyatel.mixins.objects.locator import Locator
+from dyatel.utils.internal_utils import all_tags
 from tests.static_tests.conftest import selenium_ids, selenium_drivers, all_drivers, all_ids
 
 tags = {'header h4', *all_tags}

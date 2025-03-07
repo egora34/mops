@@ -22,9 +22,9 @@ For the PageObject example, the [UI Automation Playground](https://customenv.git
 ``` 
 
 ```python
-from mops.base.element import Element
-from mops.base.group import Group
-from mops.base.page import Page
+from dyatel.base.element import Element
+from dyatel.base.group import Group
+from dyatel.base.page import Page
 
 
 class Card(Group):
@@ -74,8 +74,8 @@ class MainPage(Page):
 import pytest  # noqa
 from selenium.webdriver.chrome.webdriver import WebDriver as ChromeWebDriver
 
-from mops.base.driver_wrapper import DriverWrapper
-from mops.mixins.objects.driver import Driver
+from dyatel.base.driver_wrapper import DriverWrapper
+from dyatel.mixins.objects.driver import Driver
 
 
 @pytest.fixture
@@ -95,8 +95,8 @@ import pytest  # noqa
 from appium.webdriver.webdriver import WebDriver as SourceAppiumDriver
 from appium.options.common.base import AppiumOptions
 
-from mops.base.driver_wrapper import DriverWrapper
-from mops.mixins.objects.driver import Driver
+from dyatel.base.driver_wrapper import DriverWrapper
+from dyatel.mixins.objects.driver import Driver
 
 
 @pytest.fixture
@@ -126,9 +126,9 @@ Mops supports only sync API of playwright
 ```python
 import pytest  # noqa
 from playwright.sync_api import sync_playwright
-from mops.mixins.objects.driver import Driver
+from dyatel.mixins.objects.driver import Driver
 
-from mops.base.driver_wrapper import DriverWrapper
+from dyatel.base.driver_wrapper import DriverWrapper
 
 
 @pytest.fixture

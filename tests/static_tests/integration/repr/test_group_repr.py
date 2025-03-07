@@ -1,7 +1,7 @@
 import re
 
-from mops.base.group import Group
-from mops.mixins.objects.locator import Locator
+from dyatel.base.group import Group
+from dyatel.mixins.objects.locator import Locator
 
 
 class SomeGroup(Group):

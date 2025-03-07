@@ -39,8 +39,8 @@ When a `Group` contains many elements (more than 8-10), it is advisable to group
 Here’s how you can organize a `Group` object with a large number of elements by grouping them logically:
 
 ```python
-from mops.base.group import Group
-from mops.base.element import Element
+from dyatel.base.group import Group
+from dyatel.base.element import Element
 
 
 class SeeMoreSection(Group):
@@ -111,8 +111,8 @@ By following this approach, you achieve:
 ### Bad practice
 
 ```python
-from mops.base.group import Group
-from mops.base.element import Element
+from dyatel.base.group import Group
+from dyatel.base.element import Element
 
 
 class SeeMoreSection(Group):
@@ -144,8 +144,8 @@ class SeeMoreSection(Group):
 ### Good practice
 
 ```python
-from mops.base.group import Group
-from mops.base.element import Element
+from dyatel.base.group import Group
+from dyatel.base.element import Element
 
 
 class SeeMoreFooter(Group):

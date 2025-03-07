@@ -5,11 +5,11 @@ from selenium.webdriver.chrome.options import Options as ChromeOptions
 from selenium.webdriver.firefox.options import Options as FirefoxOptions
 from selenium.webdriver.safari.options import Options as SafariOptions
 
-from mops.base.driver_wrapper import DriverWrapper
-from mops.mixins.objects.driver import Driver
-from mops.mixins.objects.size import Size
-from mops.utils.logs import driver_wrapper_logs_settings
-from mops.visual_comparison import VisualComparison
+from dyatel.base.driver_wrapper import DriverWrapper
+from dyatel.mixins.objects.driver import Driver
+from dyatel.mixins.objects.size import Size
+from dyatel.utils.logs import driver_wrapper_logs_settings
+from dyatel.visual_comparison import VisualComparison
 from tests.adata.drivers.driver_entities import DriverEntities
 from tests.adata.drivers.driver_factory import DriverFactory
 from tests.adata.pages.colored_blocks_page import ColoredBlocksPage

@@ -1,4 +1,4 @@
-from mops.base.page import Page
+from dyatel.base.page import Page
 
 
 class PlaygroundResourcesPage(Page):

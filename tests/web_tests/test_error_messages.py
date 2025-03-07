@@ -1,8 +1,8 @@
 import pytest
 
-from mops.base.element import Element
-from mops.exceptions import *
-from mops.mixins.objects.size import Size
+from dyatel.base.element import Element
+from dyatel.exceptions import *
+from dyatel.mixins.objects.size import Size
 from tests.adata.pages.expected_condition_page import ExpectedConditionPage
 
 timeout = 0.1

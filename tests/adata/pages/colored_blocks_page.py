@@ -1,8 +1,8 @@
 from typing import List
 
-from mops.base.element import Element
-from mops.base.group import Group
-from mops.base.page import Page
+from dyatel.base.element import Element
+from dyatel.base.group import Group
+from dyatel.base.page import Page
 from tests.settings import domain_name, automation_playground_repo_name
 
 

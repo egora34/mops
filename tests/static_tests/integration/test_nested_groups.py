@@ -1,8 +1,8 @@
 import pytest
 
-from mops.base.element import Element
-from mops.base.group import Group
-from mops.base.page import Page
+from dyatel.base.element import Element
+from dyatel.base.group import Group
+from dyatel.base.page import Page
 from tests.static_tests.conftest import all_drivers, all_ids
 
 

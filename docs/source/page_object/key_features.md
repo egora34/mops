@@ -36,8 +36,8 @@ This is crucial for ensuring that your interactions with the page occur only aft
 #### Example Usage
 
 ```python
-from mops.base.page import Page
-from mops.base.element import Element
+from dyatel.base.page import Page
+from dyatel.base.element import Element
 
 
 class LoginPage(Page):
@@ -88,8 +88,8 @@ This method checks several conditions to confirm that the page is in the expecte
 #### Example Usage
 
 ```python
-from mops.base.page import Page
-from mops.base.element import Element
+from dyatel.base.page import Page
+from dyatel.base.element import Element
 
 
 class LoginPage(Page):

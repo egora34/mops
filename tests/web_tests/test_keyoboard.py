@@ -1,6 +1,6 @@
 import pytest
 
-from mops.keyboard_keys import KeyboardKeys
+from dyatel.keyboard_keys import KeyboardKeys
 
 
 @pytest.mark.skip_platform('android', 'ios')

@@ -1,4 +1,4 @@
-from mops.base.element import Element
+from dyatel.base.element import Element
 from tests.adata.pages.playground_main_page import PlaygroundMainPage
 from tests.adata.pages.resources_page import PlaygroundResourcesPage
 

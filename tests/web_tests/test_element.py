@@ -3,9 +3,9 @@ import random
 
 import pytest
 
-from mops.base.element import Element
+from dyatel.base.element import Element
 from tests.adata.pages.expected_condition_page import WaitValueCardBroken
-from mops.exceptions import InvalidSelectorException
+from dyatel.exceptions import InvalidSelectorException
 from tests.adata.pages.keyboard_page import KeyboardPage
 
 

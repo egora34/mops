@@ -48,10 +48,10 @@ objects as attributes, those too will be initialized.
 ```python
 from typing import Union, Any
 
-from mops.base.page import Page
-from mops.base.group import Group
-from mops.base.element import Element
-from mops.base.driver_wrapper import DriverWrapper
+from dyatel.base.page import Page
+from dyatel.base.group import Group
+from dyatel.base.element import Element
+from dyatel.base.driver_wrapper import DriverWrapper
 
 
 # POM
@@ -63,6 +63,7 @@ class LoginPage(Page):
     password_field = Element('.password_field', name='password field')
     login_button = Element('.login_button', name='login button')
 
+
 # PCOM
 
 
@@ -73,6 +74,7 @@ class LoginSection(Group):
     username_field = Element('.username_field', name='username field')
     password_field = Element('.password_field', name='password field')
     login_button = Element('.login_button', name='login button')
+
 
 # The framework allow to use Element as base class, but it's better to not use it as POM/PCOM
 

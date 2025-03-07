@@ -1,5 +1,5 @@
-from mops.base.group import Group
-from mops.base.page import Page
+from dyatel.base.group import Group
+from dyatel.base.page import Page
 
 
 class WrapperGroup(Group):

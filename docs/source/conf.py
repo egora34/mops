@@ -7,7 +7,7 @@ import sys
 
 sys.path.insert(0, os.path.abspath('../..'))
 
-from mops import __version__, __project_name__
+from dyatel import __version__, __project_name__
 
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information

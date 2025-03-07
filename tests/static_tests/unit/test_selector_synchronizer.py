@@ -3,7 +3,7 @@ from types import SimpleNamespace
 import pytest
 from selenium.webdriver.common.by import By
 
-from mops.utils.selector_synchronizer import set_selenium_selector, set_playwright_locator
+from dyatel.utils.selector_synchronizer import set_selenium_selector, set_playwright_locator
 
 
 @pytest.mark.parametrize(

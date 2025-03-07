@@ -34,27 +34,27 @@ This `parent` value is used to determine the context within which the element's 
 ### Code example
 
 ```python
-from mops.base.element import Element
-from mops.base.group import Group
-from mops.base.driver_wrapper import DriverWrapper
+from dyatel.base.element import Element
+from dyatel.base.group import Group
+from dyatel.base.driver_wrapper import DriverWrapper
 
 
 class Section(Group):
-    def __init__(self):
-        super().__init__('.section', name='section')
+  def __init__(self):
+    super().__init__('.section', name='section')
 
-    section_button = Element('.button', name='section button')
-    section_footer = Element('.footer', name='section button', parent=False)
-    section_footer_link = Element('.link', name='section button', parent=section_footer)
+  section_button = Element('.button', name='section button')
+  section_footer = Element('.footer', name='section button', parent=False)
+  section_footer_link = Element('.link', name='section button', parent=section_footer)
 
-    data = 'section data'
+  data = 'section data'
 
 
 # pytest usage    
 def test_section_verification(driver_wrapper: DriverWrapper):
-    section = Section()
-    assert section.section_button.is_displayed()
-    assert section.section_footer_link.text == 'www.example.com'
+  section = Section()
+  assert section.section_button.is_displayed()
+  assert section.section_footer_link.text == 'www.example.com'
 ```
 
 <br>

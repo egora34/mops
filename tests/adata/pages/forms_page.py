@@ -1,4 +1,4 @@
-from mops.base.page import Page
+from dyatel.base.page import Page
 from tests.adata.elements.forms_groups import ValidationForm, ControlsForm
 from tests.settings import automation_playground_repo_name, domain_name
 
