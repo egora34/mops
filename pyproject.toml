@@ -82,3 +82,6 @@ version = { attr = "mops.__version__" }
 [tool.setuptools]
 license-files = []
 packages = ["dyatel"]
+
+[tool.setuptools.package-dir]
+dyatel = mops
