@@ -81,7 +81,6 @@ version = { attr = "mops.__version__" }
 # Temporary workaround for https://github.com/astral-sh/uv/issues/9513, https://github.com/pypa/setuptools/issues/4759
 [tool.setuptools]
 license-files = []
-packages = ["dyatel"]
 
 [tool.setuptools.package-dir]
-dyatel = mops
+mops = "dyatel"
