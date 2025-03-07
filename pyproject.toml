@@ -3,7 +3,7 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "mops"
+name = "dyatel"
 dynamic = ["version"]
 description = "Wrapper of Selenium, Appium and Playwright with single API"
 readme = "README.md"
